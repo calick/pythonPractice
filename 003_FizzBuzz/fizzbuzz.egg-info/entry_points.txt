@@ -1,0 +1,3 @@
+[console_scripts]
+fizzbuzz = src.app:main
+
