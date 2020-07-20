@@ -17,6 +17,23 @@ FizzBuzz
 
 pip install -e .
 
+* テストが終わったら削除  
+pip uninstall fizzbuzz
+
+# 環境構築（pipenvを使う場合）
+
+pipenv --python 3
+pipenv install -e .
+pipenv shell
+
+* テストが終わったら削除  
+pipenv --rm
+
 # ツールの実行
 
 fizzbuzz -d [int:数値]
+
+# テストの実行
+
+pytest
+

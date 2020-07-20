@@ -12,3 +12,7 @@
 # ツールの実行
 
 python app -d [int:数値]
+
+# テストの実行
+
+pytest

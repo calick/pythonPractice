@@ -10,5 +10,8 @@
 
 # ツールの実行
 
-python app.py
+py app.py
 
+# テストの実行
+
+pytest

@@ -14,4 +14,4 @@ args = parser.parse_args()
 
 def main():
     fb = FizzBuzz(args.data)
-    fb.printFizzBuzz()s
+    fb.printFizzBuzz()
